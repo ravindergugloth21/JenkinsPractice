@@ -1,0 +1,98 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5808532300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.start()"
+            }
+          }
+        ],
+        "line": 2,
+        "name": "Verify search with auto generated pop up",
+        "description": "",
+        "id": "auto-generated-search;verify-search-with-auto-generated-pop-up",
+        "after": [
+          {
+            "result": {
+              "duration": 138145900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 215120200,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "I am in Home page",
+            "match": {
+              "location": "HomeSteps.i_am_in_Home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 140086000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I search for \"Jeans\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Jeans",
+                  "offset": 14
+                }
+              ],
+              "location": "SearchSteps.i_search_for(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2224248800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I click on particular jeans",
+            "match": {
+              "location": "SearchSteps.i_click_on_particular_jeans()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 82012700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I should be able to see it in page",
+            "match": {
+              "location": "VerifySteps.i_should_be_able_to_see_it_in_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Auto generated Search",
+    "description": "",
+    "id": "auto-generated-search",
+    "keyword": "Feature",
+    "uri": "Search.feature"
+  }
+]
