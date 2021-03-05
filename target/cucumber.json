@@ -1,0 +1,86 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 31433256500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.start()"
+            }
+          }
+        ],
+        "line": 2,
+        "name": "verify search feature",
+        "description": "",
+        "id": "searchfeature;verify-search-feature",
+        "after": [
+          {
+            "result": {
+              "duration": 65600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1016862800,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "I am on Home Page",
+            "match": {
+              "location": "HomePageStepDef.i_am_on_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8729696700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I search for \"dress\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "dress",
+                  "offset": 14
+                }
+              ],
+              "location": "SearchPageStepDef.i_search_for(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 11678300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I should see dress related products",
+            "match": {
+              "location": "ResultsPageStepDef.i_should_see_dress_related_products()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "SearchFeature",
+    "description": "",
+    "id": "searchfeature",
+    "keyword": "Feature",
+    "uri": "search.feature"
+  }
+]
