@@ -1,0 +1,1 @@
+Feature: Scroll down to see the footer
